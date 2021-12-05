@@ -23,9 +23,9 @@ BASE_DIR = Path(__file__).resolve().parent.parent
 SECRET_KEY = 'django-insecure-fdb&2$dlt$v9e_&8a*k1x)+fupuzp%%^bnq#j!9ql2)2*wg!xy'
 
 # SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = True
+DEBUG = False
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ['amifoody.herokuapp.com', '127.0.0.1']
 
 
 # Application definition
